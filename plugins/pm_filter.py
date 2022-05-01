@@ -747,13 +747,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/Moviexon_g1'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('🍿 GᏒԾUᎮ 🍿', url='https://t.me/MovieMarvelous_g1'),
+            InlineKeyboardButton('🎯 UᎮDΛTΞS 🎯', url='https://t.me/OpusTechz')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🪄 HΞLᎮ 🪄', callback_data='help'),
+            InlineKeyboardButton('🍁 ΛBOUT 🍁', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ CHΛИИΞL  ✅', url='https://t.me/Moviexon_c1')
+            InlineKeyboardButton('💥 CHΛИИΞL  💥', url='https://t.me/MovieMarvelous_Official')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
