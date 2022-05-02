@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('🍿 GᏒԾUᎮ 🍿', url='https://t.me/MovieMarvelous_g1')
             ],
             [
-                InlineKeyboardButton('🎃 HΞLᎮ 🎃', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('🎸 HΞLᎮ 🎸', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -47,8 +47,8 @@ async def start(client, message):
             InlineKeyboardButton('🍿 GᏒԾUᎮ 🍿', url='https://t.me/MovieMarvelous_g1'),
             InlineKeyboardButton('🎯 UᎮDΛTΞS 🎯', url='https://t.me/OpusTechz')
             ],[      
-            InlineKeyboardButton('🎃 HΞLᎮ 🎃', callback_data='help'),
-            InlineKeyboardButton('🎁 ΛBOUT 🎁', callback_data='about')
+            InlineKeyboardButton('🎸 HΞLᎮ 🎸', callback_data='help'),
+            InlineKeyboardButton('😈 ΛBOUT 😈', callback_data='about')
             ],[
             InlineKeyboardButton('🔥 CHΛИИΞL  🔥', url='https://t.me/MovieMarvelous_Official')
         ]]         
@@ -90,8 +90,8 @@ async def start(client, message):
             InlineKeyboardButton('🍿 GᏒԾUᎮ 🍿', url='https://t.me/MovieMarvelous_g1'),
             InlineKeyboardButton('🎯 UᎮDΛTΞS 🎯', url='https://t.me/OpusTechz')
             ],[      
-            InlineKeyboardButton('🎃 HΞLᎮ 🎃', callback_data='help'),
-            InlineKeyboardButton('🎁 ΛBOUT 🎁', callback_data='about')
+            InlineKeyboardButton('🎸 HΞLᎮ 🎸', callback_data='help'),
+            InlineKeyboardButton('😈 ΛBOUT 😈', callback_data='about')
             ],[
             InlineKeyboardButton('🔥 CHΛИИΞL  🔥', url='https://t.me/MovieMarvelous_Official')
         ]]
