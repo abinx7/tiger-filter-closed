@@ -895,18 +895,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)       
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="□"
-        )
-        await query.message.edit_text(
-            text="■□■□"
-        )
-        await query.message.edit_text(
-            text="■□■□■□■"
-        )
-        await query.message.edit_text(                     
-            text=script.HELP_TXT.format(query.from_user.mention),
+            text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
         )
