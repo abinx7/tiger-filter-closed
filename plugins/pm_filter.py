@@ -847,20 +847,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)       
-        await query.message.edit_text(
-            text="□■"
-        )
-        await query.message.edit_text(
-            text="□■□■"
-        )
-        await query.message.edit_text(
-            text="□■□■□■□"
-        )
-        await query.message.edit_text(                     
-            text=script.HELP_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode='html'
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
