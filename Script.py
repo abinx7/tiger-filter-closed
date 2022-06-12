@@ -1,88 +1,299 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️♥️🔥"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-<b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Mephisto_6669>𝚈𝙰𝙳𝙷𝚄</a></b>
-<b>✮ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴: <a href=https://t.me/Aadhi011>𝙰𝙰𝙳𝙷𝙸</a></b>
-<b>✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
-<b>✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
-<b>✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
-<b>✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄</b>
-<b>✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅1.0.43</b>
-<b>✮ 📜 Quote : ആരും പേടിക്കണ്ട എല്ലാവർക്കും കിട്ടും</b>
-<b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/OpusTechz>𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉</a></b>"""
+    START_TXT = """𝙃𝙞 {},
+𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎 🙌 
+𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍
+
+i𝗍𝗌 𝖾𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝗃𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇, 𝗁𝗂𝗍 /help 𝖿𝗈𝗋 𝗆𝗈𝗋𝖾
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+©MᴀɪɴᴛᴀɪɴᴇD Bʏ:<a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a> .</b>"""
+
+    HELP_TXT = """<b>𝖧𝖾𝗋𝖾 𝗂𝗌 𝗍𝗁𝖾 𝖴𝗌𝗎𝖺𝗅 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌</b>: 
+/start - 𝖼𝗁𝖾𝖼𝗄 𝗐𝗁𝖾𝗍𝗁𝖾𝗋 𝗂𝗆 𝗈𝗇𝗅𝗂𝗇𝖾 
+/help - 𝗀𝖾𝗍 𝗍𝗁𝗂𝗌 𝗁𝖾𝗅𝗉 𝗆𝖾𝗌𝗌𝖺𝗀𝖾
+/about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾"""
+    ABOUT_TXT = """
+╔══════════════════❍
+║╭━━━━━━━━━━━━━━━➣ 
+║➠ 𝙼𝚈 𝙽𝙰𝙼𝙴 -  Tiger Shroff
+║➠ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - :<a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a>
+║➠ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 - <a href='https://t.me/Abhisheksvlog'>Everyone in this journey </a>
+║➠ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - <a href='https://docs.pyrogram.org/'>𝑷𝒚𝒕𝒉𝒐𝒏 3 </a>
+║➠ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - <a href='https://docs.pyrogram.org/'>𝑷ʏʀᴏɢʀᴀᴍ </a>
+║➠ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 - EvaMaria
+║➠ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 -  <a href='https://dashboard.heroku.com/apps'>𝑯𝒆𝒓𝒐𝒌𝒖</a>
+║➠ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 - <a href='https://t.me/TigerShroffimdbot'>𝒗8.7.2[𝑴𝒂𝒋𝒐𝒓]</a>
+║➠ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 - <a href='https://github.com/200920082007/TigerShroff'>𝑪𝒍𝒊𝒄𝒌 𝑯𝒆𝒓𝒆</a>
+║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍
+    
 
 
-    DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
+🔖 𝑸𝒖𝒐𝒕𝒆 : ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും ™️"""
 
-›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>
+    ANYFILECAPTION_TXT = """**File Name:**
+`{file_name}`         
 
-⪼ <b>𝐘𝐨𝐮 𝐂𝐚𝐧 𝐃𝐨𝐧𝐚𝐭𝐞 𝐀𝐧𝐲 𝐀𝐦𝐨𝐮𝐧𝐭 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 💳. 
-<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
-✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
-✮ 𝗣𝗮𝘆𝘁𝗺
-✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
-✮ 𝗣𝗮𝘆𝗣𝗮𝗹
-_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━
+**Size:** `{file_size}`
 
-›› <b>𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b>
+`This File will be deleted after 10 minutes!`"""
 
-⪼ <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐫𝐨𝐦𝐨𝐭𝐞 . 
-<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
-✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
-✮ 𝗣𝗮𝘆𝘁𝗺
-✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
-✮ 𝗣𝗮𝘆𝗣𝗮𝗹
-_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━"""
-    PROMOTION_TXT = """<b>〄 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧 〄</b>
+    SHAZAM_TXT = """<b>Shazam Music Founder Module</b>
+- <b>help=</b> Helps You To Recognize | Discover A Song
+- <b>Use=</b> Send /Shazam (Reply To A Song File)
 
-⪼ <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐫𝐨𝐦𝐨𝐭𝐞 . 
-<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
-✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
-✮ 𝗣𝗮𝘆𝘁𝗺
-✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
-✮ 𝗣𝗮𝘆𝗣𝗮𝗹
-_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
-━━━━━━━━━━━━᚜ <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━""" 
+<b>Problems</b>
+-If The feature is not working in your bot pls contact him :<a href='tg://user?id=1951205538'><b>Click Here</b></a>
+
+<b> What's The Use </b>
+- Do You Want To Know A Song Name So You Can Hear It 
+Don't Worry Send /shazam"""
+
+    IP_TXT = """<b>IP Address Finder Module</b>
+- if you want to Find Details of a IP Address Use the Module
+<b>Command</b>
+- /ip [Ip address]
+- ex /ip 192.180.0.1"""
+
+    LYRICS_TXT = """<b>Lyrics 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖬𝗈𝖽𝗎𝗅𝖾</b>
+- 𝖨𝖿 𝗒𝗈𝗎 𝗐𝖺𝗇𝗍 𝗍𝗈 𝖽𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖺 lyric, 𝖽𝗈𝗇'𝗍 𝗌𝖾𝖺𝗋𝖼𝗁 𝖿𝗈𝗋 𝗈𝗍𝗁𝖾𝗋 𝖻𝗈𝗍 𝗁𝖾𝗋𝖾 𝗂𝗌 𝗍𝗁𝖾 𝖺𝗅𝗅 𝗂𝗇 𝗈𝗇𝖾 𝖻𝗈𝗍
+<b>𝖢𝗈𝗆𝗆𝖺𝗇𝖽</b>
+- /lyrics [Song Name] - 𝖳𝗈 𝗀𝖾𝗍 𝗍𝗁𝖾 lyrics
+<b>Usage</b>
+- 𝖢𝖺𝗇 𝖻𝖾 𝗎𝗌𝖾𝖽 𝖻𝗒 𝖾𝗏𝖾𝗋𝗒 𝗈𝗇𝖾
+- 𝖶𝗈𝗋𝗄𝗌 𝗈𝗇𝗅𝗒 𝗂𝗇 𝖻𝗈𝗍𝗌 𝗉𝗆
+<b>𝖡𝗎𝗀</b>
+𝖲𝗈𝗆𝖾𝗍𝗂𝗆𝖾𝗌 𝗂𝗍 𝗐𝗂𝗅𝗅 𝗌𝗁𝗈𝗐 𝖺𝗇 𝖾𝗋𝗋𝗈𝗋!"""
+
+    CARBON_TXT = """Reply To a Message To Make CarBon use /carbon for using this Module"""
+
+    IMG_TXT = """If You Want To Make A image Of Text send
+/hand <anything> to Get the Photo"""
+
+    FONTS_TXT = """ Want Some Stylish fonts send /font <anything>"""
+
+    BOTSTATUS_TXT = """Send /status for getting bot and heroku status"""
+
+    MAMMOKA_TXT = """𝐂𝐀𝐔𝐓𝐈𝐎𝐍 : <b>Iᴋᴋᴀ Fᴀɴs Aʀᴇ Pʀᴏʜɪʙɪᴛᴇᴅ Nᴇᴀʀ Tʜɪs ᴀʀᴇᴀ</b> 
+    
+    <b> 𝙍𝙀𝘼𝙎𝙊𝙉: </b>
+    Tʜɪs ғɪʟᴛᴇʀ ᴄᴏɴᴛᴀɪɴs ᴛᴏxɪᴄ ғᴜɴɴʏ sᴛɪᴄᴋᴇʀs 😂😂😂
+    
+    <b> 𝘾𝙊𝙈𝙈𝘼𝙉𝘿: </b> /ikka ☺☺
+    
+    """
+
+    AUNTY_TXT ="""<b>THE GREAT MALLU AUNTY</b>
+   
+ Sᴇɴᴅ /aunty, 
+ 
+ Tʜᴇɴ Mᴀʟʟᴜ Aᴜɴᴛʏ Wɪʟʟ Tᴇxᴛ Yᴏᴜ Sᴏᴍᴇ Jᴏᴋᴇs 😂😂 """
+
+    ABOUTME_TXT = """➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: <a href='http://t.me/TigerShroffImdbot'>𝑇𝑖𝑔𝑒𝑟 𝑆𝒉𝑟𝑜𝑓𝑓 </a>
+    
+➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a>
+
+➢ 𝐌𝐲 𝐒𝐨𝐮𝐫𝐜𝐞: <a href='https://github.com/200920082007/TigerShroff'><b>TigerShroff</b></a>
+
+➢ 𝐌𝐲 𝐋𝐢𝐛𝐫𝐚𝐫𝐲: <a href='https://docs.pyrogram.org/'>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
+
+➢ 𝐌𝐲 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: <a href='https://docs.pyrogram.org/'>𝖯𝗒𝗍𝗁𝗈𝗇3</a>
+
+➢ 𝐌𝐲 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞: <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈 𝖣𝖡</a> 
+
+➢ 𝐌𝐲 𝐒𝐞𝐫𝐯𝐞𝐫: <a href='https://dashboard.heroku.com/apps'>𝖧𝖾𝗋𝗈𝗄𝗎</a>
+
+➢ 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐬: <a href='https://Github.com/200920082007'>Movie Hub</a>
+
+➢ 𝐌𝐲 𝐒𝐮𝐩𝐩𝐨𝐫𝐭: <a href='https://t.me/tigershroffimdb'>𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
+
+➤ 𝙸𝚏 𝚢𝚘𝚞 𝚕𝚒𝚔𝚎 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝 𝚙𝚕𝚎𝚊𝚜𝚎 𝚜𝚑𝚊𝚛𝚎 𝚊𝚗𝚍 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚞𝚜 ⚡"""
+
+    NEXT_TXT = """Welcome To My Second Help Module"""
+
+    NEXTT_TXT = """Welcome To My Third Help Module"""
+
+    WARN_TXT = """Here is the help for the <b>Warns</b> module:
+
+Keep your members in check with warnings; stop them getting out of control!
+If you're looking for automated warnings, read about the blacklist module!
+
+<b>Admin Commands</b>:
+- /warn <reason>: Warn a user.
+- /dwarn <reason>: Warn a user by reply, and delete their message.
+- /swarn <reason>: Silently warn a user, and delete your message.
+- /warns: See a user's warnings.
+- /rmwarn: Remove a user's latest warning.
+- /resetwarn: Reset all of a user's warnings to 0.
+- /resetallwarns: Delete all the warnings in a chat. All users return to 0 warns.
+- /warnings: Get the chat's warning settings.
+- /setwarnmode <ban/kick/mute>: Set the chat's warn mode.
+- /setwarnlimit <number>: Set the number of warnings before users are punished.
+
+<b>Examples</b>
+- Warn a user.
+-> /warn @user For disobeying the rules"""
+
+    URL_TXT = """Help: <b>URL Shortner</b>
+Some URLs is Shortner
+<b>Commands and Usage:</b>
+• /short <code>(link)</code> - I will send the shorted links.
+<b>Example:</b>
+<code>/short https://t.me/josprojects</code>
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
+    TORRENT_TXT = """Help: <b>Torrent Search</b>
+
+<b>Commands and Usage</b>:
+• /torrent or /tor : Get Your Torrent Link From Various Resource.
+
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
+    DISABLE_TXT = """Here is the help for the <b>Disabling</b> module:
+
+This allows you to disable some commonly used commands, so noone can use them. It'll also allow you to autodelete them, stopping people from bluetexting.
+
+<b>Admin commands</b>:
+× /disable <commandname>: Stop users from using commandname in this group.
+× /enable <item name>: Allow users from using commandname in this group.
+× /disableable: List all disableable commands.
+× /disabledel <yes/no/on/off>: Delete disabled commands when used by non-admins.
+× /disabled: List the disabled commands in this chat.
+
+<b>Note</b>:
+When disabling a command, the command only gets disabled for non-admins. All admins can still use those commands.
+Disabled commands are still accessible through the /connect feature. If you would be interested to see this disabled too, let me know in the support chat."""
+    
+    RULES_TXT = """Here is the help for the <b>Rules</b> module:
+
+Every chat works with different rules; this module will help make those rules clearer!
+<b>User commands</b>:
+× /rules: Check the current chat rules.
+<b>Admin commands</b>:
+× /setrules <text>: Set the rules for this chat.
+× /privaterules <yes/no/on/off>: Enable/disable whether the rules should be sent in private.
+× /resetrules: Reset the chat rules to default
+× /rulesbtn <custom text>: Sets the text of rules button.
+× /resetrulesbutton: Reset the text of rules button to default.
+× /resetrulesbtn: Same as above."""
+
+    NOTE_TXT = """Here is the help for the <b>Notes</b> module:
+
+Save data for future users with notes!
+Notes are great to save random tidbits of information; a phone number, a nice gif, a funny picture - anything!
+User commands:
+- /get <notename>: Get a note.
+- #notename: Same as /get.
+<b>Admin commands</b>:
+- /save <notename> <note text>: Save a new note called "word". Replying to a message will save that message. Even works on media!
+- /clear <notename>: Delete the associated note.
+- /notes: List all notes in the current chat.
+- /saved: Same as /notes.
+- /clearall: Delete ALL notes in a chat. This cannot be undone.
+- /privatenotes: Whether or not to send notes in PM. Will send a message with a button which users can click to get the note in PM."""
+    
+    PURGE_TXT = """Here is the help for the <b>Purges</b> module:
+
+<b>Admin only</b>:
+- /purge: deletes all messages between this and the replied to message.
+- /del: deletes the message you replied to.
+
+<b>Examples</b>:
+- Delete all messages from the replied to message, until now.
+-> /purge"""
+
+    APPROVE_TXT = """Here is the help for the <b>Approvals</b> module:
+
+Sometimes, you might trust a user not to send unwanted content.
+Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
+That's what approvals are for - approve of trustworthy users to allow them to send
+
+<b>User commands</b>:
+× /approval: Check a user's approval status in this chat.
+
+<b>Admin Commands</b>:
+× /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
+× /unapprove: Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
+× /approved: List all approved users.
+
+<b>Group Owner Commands</b>:
+× /unapproveall: Unapprove ALL users in a chat. This cannot be undone."""
+
+    LOCK_TXT = """Here is the help for the <b>Locks</b> module:
+
+<b>Admin only</b>:
+× /lock <permission>: Lock Chat permission..
+× /unlock <permission>: Unlock Chat permission.
+× /locks: View Chat permission.
+× /locktypes: Check available lock types!
+
+Locks can be used to restrict a group's users.
+Locking urls will auto-delete all messages with urls, locking stickers will delete all stickers, etc.
+Locking bots will stop non-admins from adding bots to the chat.
+
+Example:
+/lock media: this locks all the media messages in the chat."""
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
-<b>𝙱𝚈 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚂𝚃𝙾𝚁𝙴 𝙵𝙸𝙻𝙴𝚂 𝙸𝙽 𝙼𝚈 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝙰𝙽𝙳 𝙸 𝚆𝙸𝙻𝙻 𝙶𝙸𝚅𝙴 𝚈𝙾𝚄 𝙰 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝙻𝙸𝙽𝙺  𝚃𝙾 𝙰𝙲𝙲𝙴𝚂𝚂 𝚃𝙷𝙴 𝚂𝙰𝚅𝙴𝙳 𝙵𝙸𝙻𝙴𝚂.𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂 𝙵𝚁𝙾𝙼 𝙰 𝙿𝚄𝙱𝙻𝙸𝙲 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙵𝙸𝙻𝚆 𝙻𝙸𝙽𝙺 𝙾𝙽𝙻𝚈  𝙾𝚁 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂 𝙵𝚁𝙾𝙼 𝙰  𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚈𝙾𝚄 𝙼𝚄𝚂𝚃 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙾𝙽 𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙰𝙲𝙲𝙴𝚂𝚂 𝙵𝙸𝙻𝙴𝚂...//</b>
+<b>By Using This Module You can store files in My database and I will You A Permanent link To access The saved Files.If You want to add files from a Public channel send the file link only or You want to store files from a Private channel you must make me admin on their to access files files.../</b>
 
 ⪼ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞 ›
 
-➪ /plink ›› <b>𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰𝙽𝚈 𝙼𝙴𝙳𝙸𝙰 𝚃𝙾 𝙶𝙴𝚃 𝙻𝙸𝙽𝙺.</b>
-➪ /pbatch ›› <b>𝚄𝚂𝙴 𝚈𝙾𝚄𝚁 𝙼𝙴𝙳𝙸𝙰 𝙻𝙸𝙽𝙺 𝚆𝙸𝚃𝙷 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳.</b>
-➪ /batch ›› <b>𝚃𝙾 𝙲𝚁𝙴𝙰𝚃𝙴 𝙻𝙸𝙽𝙺 𝙵𝙾𝚁 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝙵𝙸𝙻𝙴𝚂.</b>
+➪ /plink ›› <b>𝖱𝖾𝗉𝗅𝗒 𝗍𝗈 𝖺𝗇𝗒 𝗆𝖾𝖽𝗂𝖺 𝗍𝗈 𝗀𝖾𝗍 𝗅𝗂𝗇𝗄.</b>
+➪ /pbatch ›› <b>𝖴𝗌𝖾 𝗒𝗈𝗎𝗋 𝗆e𝖽𝗂𝖺 𝗅𝗂𝗇𝗄 𝗐𝗂𝗍𝗁 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽.</b>
+➪ /batch ›› <b>To Create Link For Multiple Post.</b>
 
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 
-<code>/batch https://t.me/MWUpdatez/3 https://t.me/MWUpdatez/8</code>
+<code>/batch https://t.me/c/1749754594/332 https://t.me/c/1749754594/336</code>"""
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
+    WELCOME_TXT ="""Here is the help for the <b>Greetings</b> module:
+
+Welcome new members to your groups or say Goodbye after they leave!
+
+<b>Admin Commands</b>:
+× /setwelcome <reply/text>: Sets welcome text for group.
+× /welcome <yes/no/on/off>: Enables or Disables welcome setting for group.
+× /resetwelcome: Resets the welcome message to default.
+× /setgoodbye <reply/text>: Sets goodbye text for group.
+× /goodbye <yes/no/on/off>: Enables or Disables goodbye setting for group.
+× /resetgoodbye: Resets the goodbye message to default.
+× /cleanservice <yes/no/on/off>: Delete all service messages such as 'x joined the group' notification.
+× /cleanwelcome <yes/no/on/off>: Delete the old welcome message, whenever a new member joins."""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 •/whois :-give a user full details"""
     FUN_TXT ="""<b>Gᴀᴍᴇs</b> 
     
-<b>⚡ 𝙹𝚄𝚂𝚃 𝚂𝙾𝙼𝙴 𝙺𝙸𝙽𝙳 𝙾𝙵 𝙵𝚄𝙽 𝚃𝙷𝙸𝙽𝙶'𝚂 ⚡</b>
- 
-𝟣. /dice - 𝚁𝙾𝙻𝙴 𝚃𝙷𝙴 𝙳𝙸𝙲𝙴 
-𝟤. /Throw 𝗈𝗋 /Dart - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙳𝙰𝚁𝚃 
-3. /Runs - 𝚂𝙾𝙼𝙴 𝚁𝙰𝙽𝙳𝙾𝙼 𝙳𝙸𝙰𝙻𝙾𝙶𝚄𝙴𝚂 
-4. /Goal or /Shoot - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙰 𝙶𝙾𝙰𝙻 𝙾𝚁 𝚂𝙷𝙾𝙾𝚃
-5. /luck or /cownd - 𝚂𝙿𝙸𝙽 𝙰𝙽𝙳 𝚃𝚁𝚈 𝚈𝙾𝚄𝚁 𝙻𝚄𝙲𝙺"""
-    DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?</b> 
-  
-<b>✮ Deploy Tutorial ››</b> <i><b>https://youtu.be/kB9TkCs8cX0</b></i>
-
-<b>𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙷𝙴 𝙰𝙹𝙰𝚇-𝙿𝚁𝙾-𝙼𝙰𝚇 𝚁𝙴𝙿𝙾 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 <a href=https://t.me/Aadhi011>𝙰𝙰𝙳𝙷𝙸</a></b>
-
-<b>𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴</b>
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
+<b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
+t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍: 
+𝟣. /dice - Roll The Dice 
+𝟤. /Throw 𝗈𝗋 /Dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat 
+3. /Runs - Jokes 
+4. /Goal or /Shoot - To Make A Goal Or Shoot
+5. /luck or /cownd - Spin the Lucky"""
+    ENGLISH_TXT = """HELP:English
+ ❍ /define <text>*:* Tʏᴘᴇ ᴛʜᴇ ᴡᴏʀᴅ ᴏʀ ᴇxᴘʀᴇssɪᴏɴ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴀʀᴄʜ\ɴFᴏʀ ᴇxᴀᴍᴘʟᴇ /define ᴋɪʟʟ
+ ❍ /spell*:* ᴡʜɪʟᴇ ʀᴇᴘʟʏɪɴɢ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ, ᴡɪʟʟ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴀ ɢʀᴀᴍᴍᴀʀ ᴄᴏʀʀᴇᴄᴛᴇᴅ ᴠᴇʀsɪᴏɴ
+ ❍ /synonyms <word>*:* Fɪɴᴅ ᴛʜᴇ sʏɴᴏɴʏᴍs ᴏғ ᴀ ᴡᴏʀᴅ
+ ❍ /antonyms <word>*:* Fɪɴᴅ ᴛʜᴇ ᴀɴᴛᴏɴʏᴍs ᴏғ ᴀ ᴡᴏʀᴅ
+"""
+    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
+a bot to create a link to share text in the telegram.
+<b>Commands and Usage:</b>
+• /share (text or reply to message)
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+    SOURCE_TXT = """<b>Source:</b>
+This bot is a Close source project.But my source code would be here
+Source: <a href='https://Github.com/200920082007/TigerShroff'>Source - Click here 👈</a>"""
+    
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
@@ -97,26 +308,36 @@ Note:- Give a user details
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
-    SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
+    SONG_TXT = """<b>🎼Song Download🎼</b>
+Song Download Module, For Those Who Love Music
 
-<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝙴 𝙵𝙾𝚁 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚂𝙾𝙽𝙶 𝚆𝙸𝚃𝙷 𝚂𝚄𝙿𝙴𝚁 𝙵𝙰𝚂𝚃 𝚂𝙿𝙴𝙴𝙳.𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿𝚂../</b>
+<b>🎈 Command 🎈</b>
 
-<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂</b>
+- /song [Song Name] - To Download Music 😁
 
-››  /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
+<b>🌀Usage🌀</b>
+- Can Be Used By Everyone
+- Works in bot pm
 
-𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿
-
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/OpusTechz>𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉</a>"""
+Made By <a href=https://t.me/+veUIdIW2CQ5mOGU5>𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬</a>"""
+    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
+a bot to create a link to share text in the telegram.
+<b>Commands and Usage:</b>
+• /share (text or reply to message)
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+   
     PIN_TXT ="""<b>PIN MODULE</b>
-<b>𝙿𝙸𝙽 𝙰 𝙼𝙴𝚂𝚂𝙰𝙶𝙴../</b>
+<b>Pin :</b>
 
-<b>𝙰𝙻𝙻 𝚃𝙷𝙴 𝙿𝙸𝙽 𝚁𝙴𝙻𝙰𝚃𝙴𝙳 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝙲𝙰𝙽 𝙱𝙴 𝙵𝙾𝚄𝙽𝙳 𝙷𝙴𝚁𝙴::</b>
+<b>All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!</b>
 
-<b>📌𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝙰𝙽𝙳 𝚄𝚂𝙰𝙶𝙴📌</b>
+<b>📚 Commands & Usage:</b>
 
-◉ /pin :- 𝚃𝙾 𝙿𝙸𝙽 𝚃𝙷𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙲𝙷𝙰𝚃𝚂
-◉ /unpin :- 𝚃𝙾 𝚄𝙽𝙿𝙸𝙽 𝚃𝙷𝙴 𝙲𝚄𝚁𝚁𝙴𝙴𝙽𝚃 𝙿𝙸𝙽𝙽𝙴𝙳 𝙼𝙴𝚂𝙰𝙰𝙶𝙴"""
+◉ /pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
+◉ /unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message"""
     PASTE_TXT = """Help: <b>Paste</b>
 
 Paste some texts or documents on a website!
@@ -129,7 +350,7 @@ Paste some texts or documents on a website!
 
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
-    TTS_TXT = """Help: <b> TTS 🎤 module:</b>
+    GTRANS_TXT = """Help: <b> TTS 🎤 module:</b>
 
 Translate text to speech
 
@@ -149,11 +370,10 @@ Helps you to know your ping 🚶🏼‍♂️
 <b>Commands:</b>
 
 • /alive - To check you are alive.
-• /help - To get help.
-• /ping - To get your ping.
-• /repo - Source Code.
-• /channel - Channel Details.
-• /ajax - Bot Link.
+• /help - To get help 
+• /ping - To get your ping 
+• /repo - Source Code. 
+
 <b>🏹Usage🏹 :</b>
 
 • This commands can be used in pms and groups
@@ -184,7 +404,7 @@ Group Support
 <b>Note:</b>
 
 Everyone can use this command , if spaming happens bot will automatically ban you from the group."""
-    PURGE_TXT = """<b>Purge</b>
+    PURGE_TXT = """<b>💣Purge💣</b>
     
 Delete A Lot Of Messages From Groups! 
     
@@ -201,21 +421,17 @@ Delete A Lot Of Messages From Groups!
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MWUpdatez)</code>
+<code>[Button Text](buttonurl:https://t.me/+veUIdIW2CQ5mOGU5)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """<b>𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙾𝙽/𝙾𝙵𝙵 𝙼𝙾𝙳𝚄𝙻𝙴..</b>
+    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
-<b>𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝚂 𝚃𝙷𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴 𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙰𝙽𝙳 𝚂𝙰𝚅𝙴  𝚃𝙷𝙴 𝙵𝙸𝙻𝙴𝚂 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙻𝙻𝚈 𝙵𝚁𝙾𝙼 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙶𝚁𝙾𝚄𝙿. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙴 𝙵𝙾𝙻𝙻𝙾𝚆𝙸𝙽𝙶 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝚃𝙾 𝙾𝙽 𝙰𝙽𝙳 𝙾𝙵𝙵 𝚃𝙷𝙴 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿.../</b>
-
-<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 :-
-<b>›› /autofilter on - 𝙴𝙽𝙰𝙱𝙻𝙴 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿𝚂.</b>
-<b>›› /autofilter off - 𝙳𝙸𝚂𝙰𝙱𝙻𝙴𝙳 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿𝚂.</b>
-<b>›› /set_template - 𝚂𝙴𝚃 𝙲𝚄𝚂𝚃𝙾𝙼 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙵𝙾𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
-<b>›› /get_template - 𝙶𝙴𝚃 𝙲𝚄𝚁𝚁𝙴𝙽𝚃 𝙸𝙼𝙳𝙱 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 𝙾𝙵 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁.</b>
-
-<b>𝙲𝚁𝙴𝙳𝙸𝚃𝚂 :- <a href=https://t.me/OpusTechz>𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉</a></b>"""
+<b>NOTE:</b>
+1. Make me the admin of your channel if it's private.
+2. make sure that your channel does not contains camrips, porn and fake files.
+3. Forward the last message to me with quotes.
+ I'll add all the files in that channel to my db."""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
@@ -256,16 +472,16 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
-<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code></b>
-<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code></b>
-<b>᚛› 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>
-<b>᚛› 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>"""
+    STATUS_TXT = """<b>➪ <b>Total Files:</b> <code>{}</code>
+➪ <b>Total Users:</b> <code>{}</code>
+➪ <b>Total Chats:</b> <code>{}</code>
+➪ <b>Used Storage:</b> <code>{}</code> 
+➪ <b>Free Storage:</b> <code>{}</code> """
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
-<b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
-<b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
-<b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
+Group = @{} (<code>{}</code>)
+Total Members = <code>{}</code>
+Added By - {}
 """
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
     
@@ -289,7 +505,7 @@ This module only works for my admins
 ➪ /covid - 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗐𝗂𝗍𝗁 𝗒𝗈𝗎𝗋 𝖼𝗈𝗎𝗇𝗍𝗋𝗒 𝗇𝖺𝗆𝖾 𝗍𝗈 𝗀𝖾𝗍 𝖼𝗈𝗏𝗂𝖽𝖾 𝗂𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇
 
 ➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾:
-<code>/covid 𝖨𝗇𝖽𝗂𝖺</code>"""
+/covid 𝖨𝗇𝖽𝗂𝖺"""
 
     URLSHORT_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
 
@@ -300,7 +516,7 @@ This module only works for my admins
 ➪ /short: 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗐𝗂𝗍𝗁 𝗒𝗈𝗎𝗋 𝗅𝗂𝗇𝗄 𝗍𝗈 𝗀𝖾𝗍 𝗌𝗁𝗈𝗋𝗍𝖾𝖽 𝗅𝗂𝗇𝗄𝗌
 
 ➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾:
-<code>/short https://youtu.be/kB9TkCs8cX0</code>"""
+/short https://t.me/+veUIdIW2CQ5mOGU5"""
 
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 
@@ -308,10 +524,9 @@ This module only works for my admins
 𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
 
 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
-• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/kB9TkCs8cX0)
+• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (𝘝𝘪𝘥𝘦𝘰 Link)
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
-<code>/mp4 https://youtu.be/kB9TkCs8cX0</code>
-<code>/video https://youtu.be/kB9TkCs8cX0</code>"""
+/𝘮𝘱4 https://youtu.be/Your Link"""
 
     ZOMBIES_TXT = """𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙺𝙸𝙲𝙺 𝚄𝚂𝙴𝚁𝚂
 
@@ -332,7 +547,7 @@ This module only works for my admins
 
 ➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨
 
-𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/MWUpdatez>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</a>"""
+𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/+veUIdIW2CQ5mOGU5>𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬</a>"""
 
     STICKER_TXT = """𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚃𝙾 𝙵𝙸𝙽𝙳 𝙰𝙽𝚈 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂 𝙸𝙳.
 • 𝐔𝐒𝐀𝐆𝐄
@@ -348,7 +563,7 @@ To Get Sticker ID
 𝘛𝘺𝘱𝘦 /ytthumb 𝘈𝘯𝘥 𝘝𝘪𝘥𝘦𝘰 𝘓𝘪𝘯𝘬
 
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦
-<code>/ytthumb https://youtu.be/UyzJ9KEoU0w</code>"""
+/ytthumb https://youtu.be/yourlink"""
 
     ABOOK_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖠𝗎𝖽𝗂𝗈𝖻𝗈𝗈𝗄
 
