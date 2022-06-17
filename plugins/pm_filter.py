@@ -700,7 +700,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/Justaupdatechannel'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/MovieFactory_Official'),
             ],[
             InlineKeyboardButton('✗ ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ ✗', callback_data='close_data')
         ]]
@@ -2111,14 +2111,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="ɴᴇxᴛ 🛡️", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="🎀 ᴊᴏɪɴ ᴏᴜʀ ᴄᴀɴɴᴇʟ 🎀",url="https://t.me/Justaupdatechannel")]
+            [InlineKeyboardButton(text="🎀 ᴊᴏɪɴ ᴏᴜʀ ᴄᴀɴɴᴇʟ 🎀",url="https://t.me/MovieFactory_Official")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="💠 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="🎀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🎀",url="https://t.me/JUSTAUPDATECHANNEL")]
+            [InlineKeyboardButton(text="🎀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🎀",url="https://t.me/MovieFactory_Official")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
