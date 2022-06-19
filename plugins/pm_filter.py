@@ -109,7 +109,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🎪[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"🎥[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -118,10 +118,10 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🎪{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"🎥{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
-                    text=f"🎪{get_size(file.file_size)}",
+                    text=f"🎥{get_size(file.file_size)}",
                     callback_data=f'files_#{file.file_id}',
                 ),
             ]
@@ -138,25 +138,25 @@ async def next_page(bot, query):
         btn.append(
             [InlineKeyboardButton("🛡️ ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
              InlineKeyboardButton(text=f"ᴄʜᴇᴄᴋ ᴘᴍ 🔗!", url=f"https://t.me/{temp.U_NAME}"),
-             InlineKeyboardButton(f" {round(int(offset) / 10) + 1} / {round(total / 10)}",
+             InlineKeyboardButton(f"💠 {round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
-            [InlineKeyboardButton(f"ᴘᴀɢᴇ {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+            [InlineKeyboardButton(f"💠ᴘᴀɢᴇ💠 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
              InlineKeyboardButton(text=f"ᴄʜᴇᴄᴋ ᴘᴍ 🔗!", url=f"https://t.me/{temp.U_NAME}"),
              InlineKeyboardButton("ɴᴇxᴛ 🛡️", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
                 InlineKeyboardButton("🛡️ ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"ᴘᴀɢᴇ {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+                InlineKeyboardButton(f"💠ᴘᴀɢᴇ💠 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("ɴᴇxᴛ 🛡️", callback_data=f"next_{req}_{key}_{n_offset}")]
             )
     btn.insert(0,
             [
-                InlineKeyboardButton("⭕️ 𝙰𝙳𝙳 𝙼𝙴 ⭕️", url="http://t.me/Adv3_Obot?startgroup=true"),
-                InlineKeyboardButton("⭕️ 𝙳𝙴𝚅 ⭕️", url="https://t.me/Mephisto_6669")
+                InlineKeyboardButton("⭕️ ɢʀᴏᴜᴘ ⭕️", url="https://t.me/cinemaenglish123"),
+                InlineKeyboardButton("⭕️ ᴅᴇᴠ ⭕️", url="https://t.me/abhisheksvlog")
             ])
 
     btn.insert(0, [
@@ -700,7 +700,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝙱𝙾𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/MovieFactory_Official'),
+            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/ABHISHEKSVLOG'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/MovieHubOfficialGroup')
+            ],[
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/Justaupdatechannel'),
             ],[
             InlineKeyboardButton('✗ ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ ✗', callback_data='close_data')
         ]]
@@ -891,6 +894,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='source')
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ🍿', url='https://t.me/MovieHubOfficialGroup')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
@@ -2082,7 +2087,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🎪[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"🎥[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -2091,11 +2096,11 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🎪{file.file_name}",
+                    text=f"🎥{file.file_name}",
                     callback_data=f'{pre}#{file.file_id}',
                 ),
                 InlineKeyboardButton(
-                    text=f"🎪{get_size(file.file_size)}",
+                    text=f"🎥{get_size(file.file_size)}",
                     callback_data=f'{pre}_#{file.file_id}',
                 ),
             ]
@@ -2107,18 +2112,18 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f" 1/{round(int(total_results) / 10)}", callback_data="pages"),
+            [InlineKeyboardButton(text=f"💠 1/{round(int(total_results) / 10)}", callback_data="pages"),
              InlineKeyboardButton(text="ɴᴇxᴛ 🛡️", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="🎀 𝙱𝙾𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🎀",url="https://t.me/MovieFactory_Official")]
+            [InlineKeyboardButton(text="🎀 ᴊᴏɪɴ ᴏᴜʀ ᴄᴀɴɴᴇʟ 🎀",url="https://t.me/Justaupdatechannel")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text=" 1/1", callback_data="pages")]
+            [InlineKeyboardButton(text="💠 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="🎀 𝙱𝙾𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🎀",url="https://t.me/MovieFactory_Official")]
+            [InlineKeyboardButton(text="🎀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🎀",url="https://t.me/JUSTAUPDATECHANNEL")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -2156,7 +2161,7 @@ async def auto_filter(client, msg, spoll=False):
             url = imdb['url'],
             **locals()
         )
-    else: 
+    else:
         cap = f"<b>Hᴇʏ😚 {message.from_user.mention}</b>👋🏻\n<b>🔍 ʜᴇʀᴇ ɪs ʏᴏᴜʀ ǫᴜᴇʀʏ ʀᴇsᴜʟᴛ</b>: <code>{search}</code>\n<b>© Pᴏᴡᴇʀᴇᴅ ʙʏ </b>: <b><a href=https://t.me/MovieHubOfficialGroup>{message.chat.title}</a></b>\nㅤㅤㅤㅤ\n<b><u> Tʜɪs ᴍᴇssᴀɢᴇ ᴡᴀs ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 15 ᴍɪɴᴜᴛᴇs . Tᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.</b></u>"
     if imdb and imdb.get('poster'):
         try:
