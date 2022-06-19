@@ -2161,26 +2161,49 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(300)
+            await asyncio.sleep(900)
             await hehe.delete()
-            await message.reply_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Bʏ {message.from_user.mention} Cʟᴏꜱᴇᴅ 🗑️", disable_notification = True)
+            await client.send_photo(
+                chat_id=message.chat.id,
+                photo="https://telegra.ph/file/d8f821b86321bd9e3e135.jpg",
+                caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏꜱᴇᴅ 🗑️",
+                reply_to_message_id=message.message_id
+            )
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(300)
-            await hmm.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Bʏ {message.from_user.mention} Cʟᴏꜱᴇᴅ 🗑️", disable_notification = True)
+            await asyncio.sleep(900)
+            await hmm.delete()
+            await client.send_photo(
+                chat_id=message.chat.id,
+                photo="https://telegra.ph/file/d8f821b86321bd9e3e135.jpg",
+                caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏꜱᴇᴅ 🗑️",
+                reply_to_message_id=message.message_id
+            )
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(300)
-            await fek.edit_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Bʏ {message.from_user.mention} Cʟᴏꜱᴇᴅ 🗑️")
+            fek = await message.reply_photo(photo="https://telegra.ph/file/82b5bbbab6d5e5593b6b2.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(900)
+            await fek.delete()
+            await client.send_photo(
+                chat_id=message.chat.id,
+                photo="https://telegra.ph/file/d8f821b86321bd9e3e135.jpg",
+                caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏꜱᴇᴅ 🗑️",
+                reply_to_message_id=message.message_id
+            )
     else:
-        fuk = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
-        await asyncio.sleep(300)
+        fuk = await message.reply_photo(photo="https://telegra.ph/file/8b42f6caf6ef5fd76766f.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        await asyncio.sleep(900)
         await fuk.delete()
-        await message.reply_text(text=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Bʏ {message.from_user.mention} Cʟᴏꜱᴇᴅ 🗑️")
-
+        await client.send_photo(
+            chat_id=message.chat.id,
+            photo="https://telegra.ph/file/d8f821b86321bd9e3e135.jpg",
+            caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏꜱᴇᴅ 🗑️",
+            reply_to_message_id=message.message_id
+        )
+    if spoll:
+        await msg.message.delete()
 
 async def advantage_spell_chok(msg):
     query = re.sub(
