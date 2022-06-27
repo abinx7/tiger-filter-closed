@@ -5,12 +5,12 @@ class script(object):
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Mephisto_6669>𝗠Λ𝗥𝗖 𝗦𝗣Ξ𝗖𝗧𝗢𝗥</a>
+✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://dashboard.heroku.com'>𝙷𝙴𝚁𝙾𝙺𝚄</a>
+✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://cloud.mongodb.com'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>
 ✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✮ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼: EvaMaria
 ✮ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂: <a href='https://t.me/Abhisheksvlog'>Everyone in this journey</a>
 ✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✮ 𝚂𝙾𝚄𝚁𝙲𝙴:<a href=https://github.com/EvamariaTG>EvaMaria</a>
 ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
 
