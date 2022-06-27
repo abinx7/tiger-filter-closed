@@ -73,7 +73,7 @@ async def start(client, message):
         )
         await message.reply_chat_action("Typing")
         m=await message.reply_sticker("CAACAgUAAxkBAAIGnWKr0XIXQonP2k-bx_KsrHiUfT80AAKaAAPIlGQULGXh4VzvJWoeBA") 
-        await asyncio.sleep(20)
+        await asyncio.sleep(3)
         await m.delete()
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
