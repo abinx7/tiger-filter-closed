@@ -11,7 +11,7 @@ class script(object):
 ✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: <a href='https://github.com/pyrogram'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
 ✮ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼: <a href=https://github.com/EvamariaTG>𝙴𝚅𝙰 𝙼𝙰𝚁𝙸𝙰</a>
 ✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: <a href='https://t.me/Abhisheksvlog'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
-✮ 𝚂𝙾𝚄𝚁𝙲𝙴: <a href='https://tme/TigerShroffImdbot'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
+✮ 𝚂𝙾𝚄𝚁𝙲𝙴: <a href='https://t.me/TigerShroffImdbot'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
 ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
 
     ANYFILECAPTION_TXT = """**File Name:**
