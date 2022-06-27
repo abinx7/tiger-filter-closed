@@ -756,56 +756,56 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', callback_data='autofilter'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct'),
             ],[
-            InlineKeyboardButton('sᴏɴɢ', callback_data='songs'),
-            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'),
-            InlineKeyboardButton("ᴠɪᴅᴇᴏ", callback_data='video'),
+            InlineKeyboardButton('🎵sᴏɴɢ🎵', callback_data='songs'),
+            InlineKeyboardButton('⚡️ᴇxᴛʀᴀ⚡️', callback_data='extra'),
+            InlineKeyboardButton("🎞️ᴠɪᴅᴇᴏ🎞️", callback_data='video'),
             ],[
-            InlineKeyboardButton('ᴘɪɴ', callback_data='pin'), 
-            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
+            InlineKeyboardButton('🪡ᴘɪɴ🪡', callback_data='pin'), 
+            InlineKeyboardButton('🏮ᴘᴀsᴛᴇ🏮', callback_data='pastes'),
             InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image'),
             ],[
-            InlineKeyboardButton('ғᴜɴ', callback_data='fun'), 
-            InlineKeyboardButton('ᴊsᴏɴ', callback_data='son'),
+            InlineKeyboardButton('🎸ғᴜɴ🎸', callback_data='fun'), 
+            InlineKeyboardButton('🔫ᴊsᴏɴ🔫', callback_data='son'),
             InlineKeyboardButton('ᴛᴛs', callback_data='ttss'),
             ],[
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purges'),
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings'),
+            InlineKeyboardButton('🎭ᴘᴜʀɢᴇ🎭', callback_data='purges'),
+            InlineKeyboardButton('🍭ᴘɪɴɢ🍭', callback_data='pings'),
             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele'),
             ],[
-            InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
-            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
-            InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies'),
+            InlineKeyboardButton('🧿ᴡʜᴏɪs🧿', callback_data='whois'),
+            InlineKeyboardButton('🎐ᴍᴜᴛᴇ🎐', callback_data='restric'),
+            InlineKeyboardButton('🧟ᴋɪᴄᴋ🧟', callback_data='zombies'),
             ],[
-            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ', callback_data='report'),
-            InlineKeyboardButton('ʏᴛ-ᴛʜᴜᴍʙ', callback_data='ytthumb'),
+            InlineKeyboardButton('⏰️ʀᴇᴘᴏʀᴛ⏰️', callback_data='report'),
+            InlineKeyboardButton('🗼ʏᴛ-ᴛʜᴜᴍʙ🗼', callback_data='ytthumb'),
             InlineKeyboardButton('sᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker'),
             ],[
-            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona'),
-            InlineKeyboardButton('ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ', callback_data='abook'),
-            InlineKeyboardButton('ᴜʀʟ-sʜᴏʀᴛ', callback_data='urlshort'),
+            InlineKeyboardButton('🩺ᴄᴏᴠɪᴅ🩺', callback_data='corona'),
+            InlineKeyboardButton('🧚‍♀️ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ🧚‍♀️', callback_data='abook'),
+            InlineKeyboardButton('🪧ᴜʀʟ-sʜᴏʀᴛ🪧', callback_data='urlshort'),
             ],[
-            InlineKeyboardButton('ɢ-ᴛʀᴀɴs', callback_data='gtrans'),
-            InlineKeyboardButton('ғɪʟᴇ-sᴛᴏʀᴇ', callback_data='newdata'),
-            InlineKeyboardButton('sʜᴀʀᴇ-ᴛᴇxᴛ', callback_data='sharetext'),
+            InlineKeyboardButton('💱ɢ-ᴛʀᴀɴs💱', callback_data='gtrans'),
+            InlineKeyboardButton('🔖ғɪʟᴇ-sᴛᴏʀᴇ🔖', callback_data='newdata'),
+            InlineKeyboardButton('🖋️sʜᴀʀᴇ-ᴛᴇxᴛ🖋️', callback_data='sharetext'),
             ],[
-            InlineKeyboardButton('ᴘᴀssᴡᴏʀᴅ-ɢᴇɴ', callback_data='genpassword'),
-            InlineKeyboardButton('ᴛᴏʀʀᴇɴᴛ', callback_data='torrent'),
+            InlineKeyboardButton('📟ᴘᴀssᴡᴏʀᴅ-ɢᴇɴ📟', callback_data='genpassword'),
+            InlineKeyboardButton('🎬ᴛᴏʀʀᴇɴᴛ🎬', callback_data='torrent'),
             InlineKeyboardButton('ᴍᴀʟʟᴜ ᴀᴜɴᴛʏ', callback_data='aunty'),
             ],[
-            InlineKeyboardButton('ᴍᴀᴍᴍᴏᴋᴀ', callback_data='mammoka'),
-            InlineKeyboardButton('Bot Status', callback_data='restatus'),
+            InlineKeyboardButton('🕶️ᴍᴀᴍᴍᴏᴋᴀ🕶️', callback_data='mammoka'),
+            InlineKeyboardButton('🔮Bot Status🔮', callback_data='restatus'),
             InlineKeyboardButton('Text To Img', callback_data='img'),
             ],[
-            InlineKeyboardButton('ՏTYᒪIՏᕼ ᖴOᑎTՏ', callback_data='fonts'),
-            InlineKeyboardButton('Carbon', callback_data='carbon'),
-            InlineKeyboardButton('Lyrics', callback_data='lyrics'),
+            InlineKeyboardButton('🔄ՏTYᒪIՏᕼ ᖴOᑎTՏ🔄', callback_data='fonts'),
+            InlineKeyboardButton('💢Carbon💢', callback_data='carbon'),
+            InlineKeyboardButton('🎊Lyrics🎊', callback_data='lyrics'),
             ],[
-            InlineKeyboardButton('IP Address', callback_data='ip'),
-            InlineKeyboardButton('Shazam', callback_data='shazam'),
+            InlineKeyboardButton('🧩IP Address🧩', callback_data='ip'),
+            InlineKeyboardButton('⛳️Shazam⛳️', callback_data='shazam'),
             ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ x', callback_data='close_data')
+            InlineKeyboardButton('🎉ʙᴀᴄᴋ🎉', callback_data='start'),
+            InlineKeyboardButton('🎀sᴛᴀᴛᴜs🎀', callback_data='stats'),
+            InlineKeyboardButton('🎲ᴄʟᴏsᴇ🎲 x', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("● ◌ ◌")
