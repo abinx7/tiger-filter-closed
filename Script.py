@@ -8,9 +8,9 @@ class script(object):
 ✮ 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://dashboard.heroku.com'>𝙷𝙴𝚁𝙾𝙺𝚄</a>
 ✮ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴: <a href='https://cloud.mongodb.com'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>
 ✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <a href='https://www.python.org/'>𝙿𝚈𝚃𝙷𝙾𝙽</a>
-✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: <a href=''https://github.com/pyrogram'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
-✮ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼: <a href=https://github.com/EvamariaTG>EvaMaria</a>
-✮ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂: <a href='https://t.me/Abhisheksvlog'>𝚃𝙷𝙸𝚂 𝙿𝙴𝚁𝚂𝙸𝙾𝙽</a>
+✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: <a href='https://github.com/pyrogram'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
+✮ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼: <a href=https://github.com/EvamariaTG>𝙴𝚅𝙰 𝙼𝙰𝚁𝙸𝙰</a>
+✮ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂: <a href='https://t.me/Abhisheksvlog'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
 ✮ 𝚂𝙾𝚄𝚁𝙲𝙴: <a href=''https://tme/TigerShroffImdbot'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
 ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
 
