@@ -424,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                       [
                        [
                         InlineKeyboardButton("⚡ 𝙰𝙳𝙳 𝙼𝙴 ⚡", url="http://t.me/Adv3_Obot?startgroup=true"),
-                        InlineKeyboardButton("💥 𝚃𝚑𝚊𝚗𝚔𝚜 💥", url="https://t.me/share/url?url=tg://settings")
+                        InlineKeyboardButton("💥 𝚃𝚑𝚊𝚗𝚔𝚜 💥", url="https://t.me/tg://settings")
                      ],[
                         InlineKeyboardButton("🔖 ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴜʙᴛɪᴛʟᴇ 🔖", url="https://telegra.ph/DOWNLOAD-SUBTITLES-06-27-2")
                        ]
