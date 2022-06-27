@@ -778,9 +778,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⏰️ʀᴇᴘᴏʀᴛ⏰️', callback_data='report'),
             InlineKeyboardButton('🗼ʏᴛ-ᴛʜᴜᴍʙ🗼', callback_data='ytthumb'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker'),
+            InlineKeyboardButton('🌀sᴛɪᴄᴋᴇʀ-ɪᴅ🌀', callback_data='sticker'),
             ],[
-            InlineKeyboardButton('🩺ᴄᴏᴠɪᴅ🩺', callback_data='corona'),
+            InlineKeyboardButton('🧬ᴄᴏᴠɪᴅ🧬', callback_data='corona'),
             InlineKeyboardButton('🧚‍♀️ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ🧚‍♀️', callback_data='abook'),
             InlineKeyboardButton('🪧ᴜʀʟ-sʜᴏʀᴛ🪧', callback_data='urlshort'),
             ],[
@@ -843,11 +843,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝑊𝒉𝑜𝑖𝑠', callback_data='whois'),
             InlineKeyboardButton('𝑀𝑢𝑡𝑒', callback_data='restric'),
-            InlineKeyboardButton('𝐾𝑖𝑐𝑘', callback_data='zombies')
+            InlineKeyboardButton('🥊𝐾𝑖𝑐𝑘🥊', callback_data='zombies')
             ],[
             InlineKeyboardButton('𝑅𝑒𝑝𝑜𝑟𝑡', callback_data='report'),
-            InlineKeyboardButton('𝑌𝑡-𝑇𝒉𝑢𝑚𝑏', callback_data='ytthumb'),
-            InlineKeyboardButton('𝑆𝑡𝑖𝑐𝑘𝑒𝑟-𝐼𝑑', callback_data='sticker')
+            InlineKeyboardButton('🗼𝑌𝑡-𝑇𝒉𝑢𝑚𝑏🗼', callback_data='ytthumb'),
+            InlineKeyboardButton('🌀𝑆𝑡𝑖𝑐𝑘𝑒𝑟-𝐼𝑑🌀', callback_data='sticker')
             ],[
             InlineKeyboardButton('𝐶𝑜𝑣𝑖𝑑', callback_data='corona'),
             InlineKeyboardButton('𝐴𝑢𝑑𝑖𝑜-𝐵𝑜𝑜𝑘', callback_data='abook'),
