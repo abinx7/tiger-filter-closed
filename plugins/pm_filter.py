@@ -765,7 +765,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image'),
             ],[
             InlineKeyboardButton('🎸ғᴜɴ🎸', callback_data='fun'), 
-            InlineKeyboardButton('🔫ᴊsᴏɴ🔫', callback_data='son'),
+            InlineKeyboardButton('🧨ᴊsᴏɴ🧨', callback_data='son'),
             InlineKeyboardButton('ᴛᴛs', callback_data='ttss'),
             ],[
             InlineKeyboardButton('🎭ᴘᴜʀɢᴇ🎭', callback_data='purges'),
@@ -796,9 +796,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔮Bot Status🔮', callback_data='restatus'),
             InlineKeyboardButton('Text To Img', callback_data='img'),
             ],[
-            InlineKeyboardButton('🔄ՏTYᒪIՏᕼ ᖴOᑎTՏ🔄', callback_data='fonts'),
+            InlineKeyboardButton('💫ᖴOᑎTՏ💫', callback_data='fonts'),
             InlineKeyboardButton('💢Carbon💢', callback_data='carbon'),
-            InlineKeyboardButton('🎊Lyrics🎊', callback_data='lyrics'),
+            InlineKeyboardButton('🎼Lyrics🎼', callback_data='lyrics'),
             ],[
             InlineKeyboardButton('🧩IP Address🧩', callback_data='ip'),
             InlineKeyboardButton('⛳️Shazam⛳️', callback_data='shazam'),
@@ -831,15 +831,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝑃𝑖𝑛', callback_data='pin'), 
             InlineKeyboardButton('𝑃𝑎𝑠𝑡𝑒', callback_data='pastes'),
-            InlineKeyboardButton("𝐼𝑚𝑎𝑔𝑒", callback_data='image')
+            InlineKeyboardButton("🖼️𝐼𝑚𝑎𝑔𝑒🖼️", callback_data='image')
             ],[
             InlineKeyboardButton('𝐹𝑢𝑛', callback_data='fun'), 
             InlineKeyboardButton('𝐽𝑠𝑜𝑛', callback_data='son'),
-            InlineKeyboardButton('𝑇𝑇𝑆', callback_data='ttss')
+            InlineKeyboardButton('🦄𝑇𝑇𝑆🦄', callback_data='ttss')
             ],[
             InlineKeyboardButton('𝑃𝑢𝑟𝑔𝑒', callback_data='purges'),
             InlineKeyboardButton('𝑃𝑖𝑛𝑔', callback_data='pings'),
-            InlineKeyboardButton('𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑝𝒉', callback_data='tele')
+            InlineKeyboardButton('🚗𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑝𝒉🚗', callback_data='tele')
             ],[
             InlineKeyboardButton('𝑊𝒉𝑜𝑖𝑠', callback_data='whois'),
             InlineKeyboardButton('𝑀𝑢𝑡𝑒', callback_data='restric'),
