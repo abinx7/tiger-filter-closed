@@ -902,8 +902,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🍿ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ🍿', url='https://t.me/MovieFactory_Official')
-            ],[
             InlineKeyboardButton('ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start'),
