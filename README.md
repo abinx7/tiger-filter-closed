@@ -110,6 +110,17 @@ python3 bot.py
 * /channel - to get list of total connected channels
 * /broadcast - to broadcast a message to all Ajax users
 ```
+                                                                                                                                 
+ORIGINAL REPO ›› [EvaMaria](https://github.com/EvamariaTG/EvaMaria)
 
-<b>✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [𝐀𝐚𝐝𝐡𝐢](https://t.me/Aadhi011)</b>                                                                                                                                                                                     
-<b>✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐳](https://t.me/MWUpdatez)</b>
+CREDITS ›› [EvaMariaDevs](https://telegram.dog/EvaMariaDevs)
+
+Thanks To DivideProjects For Kanging The Repo [Alita_Robot](https://github.com/DivideProjects/Alita_robot)
+
+
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁s ›› [Abhishek](https://t.me/abhisheksvlog)
+›› [𝐀𝐚𝐝𝐡𝐢](https://t.me/Aadhi011)   
+                                                                                                                                  
+SPECIAL THANKS ›› [Aaadhi](https://github.com/Aadhi000)       
+                              
+Collabareter ›› [Joel Kurian Biju](https://t.me/CreatorBeatz)
