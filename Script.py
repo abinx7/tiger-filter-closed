@@ -277,7 +277,7 @@ a bot to create a link to share text in the telegram.
 • These commands can be used by any group member."""
     SOURCE_TXT = """<b>Source:</b>
 This bot is a Close source project.But my source code would be here
-Source: <a href='https://Github.com/200920082007/TigerShroff'>Source - Click here 👈</a>"""
+Source: <a href='https://t.me/TigerShroffImdbot'>Source - Click here 👈</a>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
