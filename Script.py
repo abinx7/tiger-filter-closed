@@ -4,14 +4,14 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Mephisto_6669>𝗠Λ𝗥𝗖 𝗦𝗣Ξ𝗖𝗧𝗢𝗥</a>
+✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/MoviesHub_Updates>Movieshub</a>
 ✮ 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://dashboard.heroku.com'>𝙷𝙴𝚁𝙾𝙺𝚄</a>
 ✮ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴: <a href='https://cloud.mongodb.com'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>
 ✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <a href='https://www.python.org/'>𝙿𝚈𝚃𝙷𝙾𝙽</a>
 ✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: <a href='https://github.com/pyrogram'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
 ✮ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼: <a href=https://github.com/EvamariaTG>𝙴𝚅𝙰 𝙼𝙰𝚁𝙸𝙰</a>
-✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: <a href='https://t.me/Abhisheksvlog'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
-✮ 𝚂𝙾𝚄𝚁𝙲𝙴: <a href='https://t.me/TigerShroffImdbot'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
+✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: <a href='https://t.me/MoviesHub_Updates'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
+✮ 𝚂𝙾𝚄𝚁𝙲𝙴: <a href='https://t.me/TigerShrofImd'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
 ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
 
     ANYFILECAPTION_TXT = """**File Name:**
@@ -72,11 +72,11 @@ Don't Worry Send /shazam"""
  
  Tʜᴇɴ Mᴀʟʟᴜ Aᴜɴᴛʏ Wɪʟʟ Tᴇxᴛ Yᴏᴜ Sᴏᴍᴇ Jᴏᴋᴇs 😂😂 """
 
-    ABOUTME_TXT = """➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: <a href='http://t.me/TigerShroffImdbot'>𝑇𝑖𝑔𝑒𝑟 𝑆𝒉𝑟𝑜𝑓𝑓 </a>
+    ABOUTME_TXT = """➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: <a href='https://t.me/JohnnyDeppRobot'>ᴊᴏʜɴɴʏ ᴅᴇᴘᴘ</a>
     
 ➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a>
 
-➢ 𝐌𝐲 𝐒𝐨𝐮𝐫𝐜𝐞: <a href='https://github.com/200920082007/TigerShroff'><b>TigerShroff</b></a>
+➢ 𝐌𝐲 𝐒𝐨𝐮𝐫𝐜𝐞: <a href='https://t.me/JohnnyDeppRobot'><b>ᴊᴏʜɴɴʏ ᴅᴇᴘᴘ</b></a>
 
 ➢ 𝐌𝐲 𝐋𝐢𝐛𝐫𝐚𝐫𝐲: <a href='https://docs.pyrogram.org/'>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
 
@@ -86,9 +86,9 @@ Don't Worry Send /shazam"""
 
 ➢ 𝐌𝐲 𝐒𝐞𝐫𝐯𝐞𝐫: <a href='https://dashboard.heroku.com/apps'>𝖧𝖾𝗋𝗈𝗄𝗎</a>
 
-➢ 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐬: <a href='https://Github.com/200920082007'>Movie Hub</a>
+➢ 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐬: <a href='https://t.me/JohnnyDeppRobot'>Movie Hub</a>
 
-➢ 𝐌𝐲 𝐒𝐮𝐩𝐩𝐨𝐫𝐭: <a href='https://t.me/tigershroffimdb'>𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
+➢ 𝐌𝐲 𝐒𝐮𝐩𝐩𝐨𝐫𝐭: <a href='https://t.me/JohnnyDeppRobot'>𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
 
 ➤ 𝙸𝚏 𝚢𝚘𝚞 𝚕𝚒𝚔𝚎 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝 𝚙𝚕𝚎𝚊𝚜𝚎 𝚜𝚑𝚊𝚛𝚎 𝚊𝚗𝚍 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚞𝚜 ⚡"""
 
@@ -277,7 +277,7 @@ a bot to create a link to share text in the telegram.
 • These commands can be used by any group member."""
     SOURCE_TXT = """<b>Source:</b>
 This bot is a Close source project.But my source code would be here
-Source: <a href='https://t.me/TigerShroffImdbot'>Source - Click here 👈</a>"""
+Source: <a href='https://t.me/JohnnyDeppRobot'>Source - Click here 👈</a>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
