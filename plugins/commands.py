@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/MovieHubOfficialGroup')
+                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/MoviesHub_Updates')
             ],
             [
                 InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -31,7 +31,7 @@ async def start(client, message):
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.send_sticker(chat_id=message.chat.id, sticker='CAACAgUAAxkBAAIGnWKr0XIXQonP2k-bx_KsrHiUfT80AAKaAAPIlGQULGXh4VzvJWoeBA', reply_markup=reply_markup, reply_to_message_id=message.message_id)
+        await client.send_sticker(chat_id=message.chat.id, sticker='CAACAgQAAxkBAAE75Ndi4_bZv2T7mShnhLKmfz_XaLPRvgACBxAAAqbxcR6x7JT7tldV0B4E', reply_markup=reply_markup, reply_to_message_id=message.message_id)
         await asyncio.sleep(30)
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
@@ -50,18 +50,18 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/CinemaCorner_Official'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/MoviesHub_Updates'),
             ],[
             InlineKeyboardButton('✗ ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ ✗' , callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAIGhWKrzSZvxT7NijWhsKaqH-fw3FhtAAJgAAM7SrMp5iHy20CHwIoeBA") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAE75PBi4_cxtRgbQ_gfSBglK9co8WEGgwACAQoAAnyWSFGTxYzTc-2E1R4E") 
         await asyncio.sleep(2)
         await m.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
-        m=await message.reply_sticker("CAACAgIAAxkBAAIGa2KryUjh5OHbbuoYHVBtBcdYJVTEAAKOFQACJU3BSY8WTX7r0TbzHgQ") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAE75Ndi4_bZv2T7mShnhLKmfz_XaLPRvgACBxAAAqbxcR6x7JT7tldV0B4E") 
         await asyncio.sleep(2)
         await m.delete()
         await message.reply_chat_action("typing")
@@ -72,7 +72,7 @@ async def start(client, message):
             parse_mode='html'
         )
         await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAIGnWKr0XIXQonP2k-bx_KsrHiUfT80AAKaAAPIlGQULGXh4VzvJWoeBA") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAE75PBi4_cxtRgbQ_gfSBglK9co8WEGgwACAQoAAnyWSFGTxYzTc-2E1R4E") 
         await asyncio.sleep(3)
         await m.delete()
         return
@@ -108,7 +108,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/CinemaCorner_Official'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/MoviesHub_Updates'),
             ],[
             InlineKeyboardButton('✗ ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ ✗' , callback_data='close_data')
         ]]
@@ -263,7 +263,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/CinemaCorner_Official'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/MoviesHub_Updates'),
             ],[
             InlineKeyboardButton('✗ ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ ✗' , callback_data='close_data')
         ]]
